@@ -1,0 +1,200 @@
+/*
+* Html Layout
+*/
+html, body {
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+  background-color: transparent;
+}
+
+.site-header, .site-frontpage-jumbo, .site-doc-jumbo, .site-footer {
+  color: $main-color5;
+  background-color: #121212;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.site-header {
+  padding: 1rem;
+  .site-header-nav {
+    .site-nav-brand {
+      img {
+        height: 1.5em;
+      }
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-left: -10px;
+    }
+    .nav-link {
+      color: $main-color2;
+      &:hover {
+        color: #444;
+      }
+    }
+  }
+}
+
+
+.site-frontpage-jumbo {
+  position: relative;
+  background: linear-gradient(#121212,#242b52);    
+  z-index: 0;
+  // .background-image {
+  //   background-image: url("/images/vancouver.jpg");
+  //   background-size: cover;
+  //   filter: blur(2px) brightness(0.5);
+  //   height: 100%;
+  //   width: 100%;
+  //   position: absolute;
+  // }
+  header {
+    color: #fff;
+    padding: 13rem 0;
+    h3 {
+      color: $main-color2;
+    }
+  }
+  
+  .bg-animation {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: -10;
+  }
+}
+
+.site-frontpage {
+  padding: 6rem 0;
+  color: rgb(80, 80, 80);
+
+  &.contact {
+    background-color: rgb(247, 247, 247);
+    svg {
+      position: relative;
+      color: $main-color4;
+    }
+    a {
+      color: #333;
+      font-size: 1.2rem;
+      margin-left: 0.5rem;
+    }
+  }
+  &.why {
+    color: #fff;
+    background-color: rgb(58, 58, 58);
+  }
+
+}
+
+
+.site-frontpage-form {
+  padding: 3rem 0;
+  background-color: $main-color4;
+  color: $main-color1;
+  text-align: center;
+
+}
+
+.site-page-jumbo {
+  min-height: 10rem;
+  background: linear-gradient(#121212,#242b52);
+  color: #fff;
+  margin: 0;
+}
+
+.site-about {
+  padding: 3rem 0 6rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.site-about.team {
+  
+  p {
+    padding: 3rem 0;
+  }
+  h4 {
+    margin-bottom: 2em;
+  }
+  .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h5 {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    h6 {
+      color: rgb(156, 156, 156);
+      font-size: 0.9rem;
+    }
+    img {
+      border-radius: 50%;
+      width: 10rem;
+      height: 10rem;
+      background-clip: border-box;
+    }
+    p {
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  }
+
+}
+
+.site-about.careers {
+  background-color: #f7f7f7;
+  h5 { margin-top: 3rem; }
+}
+
+.site-doc-nav {
+  background-color: #afafaf;
+
+  ul {
+    list-style: none;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.site-footer {
+  padding: 3em 0;
+  img {
+    width: 2rem;
+  }
+  .site-footer-heading, .site-footer-sub {
+    padding: 1rem 0 0;
+  }
+  .footer-tiny {
+    padding-top:2rem;
+    font-size: 10px;
+    color: rgb(129, 129, 129);
+  }
+  h5 {
+    color: #afafaf;
+  }
+  .contact-list {
+    margin: 0;
+    list-style: none;
+    padding: 1em 0;
+    li a {
+      color: #fff;
+      i {
+        color: #444;
+        width: 1em;
+        padding-right: 1rem;
+      }
+      &:hover {
+        text-decoration: none; 
+        color: #f1f1f1;
+      }
+    }
+  }
+}

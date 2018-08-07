@@ -1,0 +1,41 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 197.01 249.13">
+    <defs>
+        <style>
+            .bg-sqr {
+                fill: url(#radial-gradient);
+            }
+
+            .md-sqr {
+                fill: #0071bc;
+            }
+
+            .cls-3 {
+                fill: none;
+                stroke: #ccc;
+                stroke-linejoin: round;
+            }
+
+            .sm-sqr {
+                fill: #fff;
+            }
+        </style>
+        <radialGradient id="radial-gradient" cx="537.25" cy="325.47" r="262.62" gradientTransform="translate(-574.59 188.33) rotate(-23.7) scale(1 0.71)"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#cce0f4" />
+            <stop offset="0.06" stop-color="#c3dcf2" />
+            <stop offset="0.17" stop-color="#a9d2ee" />
+            <stop offset="0.31" stop-color="#80c2e7" />
+            <stop offset="0.46" stop-color="#47acde" />
+            <stop offset="0.57" stop-color="#1e9cd7" />
+            <stop offset="0.87" stop-color="#0075be" />
+        </radialGradient>
+    </defs>
+    <title>squares</title>
+    <polygon class="bg-sqr" points="196.76 63.67 196.76 248.64 120.25 185.28 120.25 0.31 196.76 63.67" />
+    <polygon class="md-sqr" points="96.13 120.77 96.13 227.13 52.14 190.69 52.14 84.34 96.13 120.77" />
+    <line class="cls-3" x1="19.79" y1="165.42" x2="196.76" y2="63.67" />
+    <line class="cls-3" x1="0.39" y1="149.35" x2="120.25" y2="0.31" />
+    <line class="cls-3" x1="19.79" y1="212.33" x2="196.76" y2="248.64" />
+    <line class="cls-3" x1="0.39" y1="196.26" x2="120.25" y2="185.28" />
+    <polygon class="sm-sqr" points="19.79 165.42 19.79 212.33 0.39 196.26 0.39 149.35 19.79 165.42" />
+</svg>
