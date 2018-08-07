@@ -10,13 +10,14 @@ html, body {
 
 .site-header, .site-frontpage-jumbo, .site-doc-jumbo, .site-footer {
   color: $main-color5;
-  background-color: #121212;
+  background-color: #bbb;
   margin-bottom: 0;
   z-index: 1;
 }
 
 .site-header {
   padding: 1rem;
+  display:none;
   .site-header-nav {
     .site-nav-brand {
       img {
@@ -40,7 +41,7 @@ html, body {
 
 .site-frontpage-jumbo {
   position: relative;
-  background: linear-gradient(#121212,#242b52);    
+  background-color: rgb(241, 241, 241);    
   z-index: 0;
   // .background-image {
   //   background-image: url("/images/vancouver.jpg");
@@ -51,13 +52,34 @@ html, body {
   //   position: absolute;
   // }
   header {
-    color: #fff;
-    padding: 13rem 0;
+    color: rgb(0, 0, 0);
+    padding: 10rem 0 7rem;
+    .project-name {
+      font-weight: 900;
+      b {
+        text-shadow: #222;
+        color: #fbd13b;
+      }
+    }
+    .project-desc {
+    }
+    
     h3 {
       color: $main-color2;
     }
   }
   
+  .btn-whitepaper {
+    width: 18rem;
+    margin: 1rem 0 0 0;
+    font-size: 1.4rem;
+    color: #333;
+    background: transparent;
+    border: 2px solid #fbd13b;
+    font-weight: 900;
+    h4 { padding: 0; margin: 0;}
+  }
+
   .bg-animation {
     position: fixed;
     width: 100%;
@@ -167,7 +189,8 @@ html, body {
 .site-footer {
   padding: 3em 0;
   img {
-    width: 2rem;
+    width: 5rem;
+    margin: 0 0 -2rem -1rem;;
   }
   .site-footer-heading, .site-footer-sub {
     padding: 1rem 0 0;
