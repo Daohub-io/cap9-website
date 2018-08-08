@@ -10,7 +10,7 @@ html, body {
 
 .site-header, .site-frontpage-jumbo, .site-doc-jumbo, .site-footer {
   color: $main-color5;
-  background-color: #bbb;
+  background-color: rgb(102, 102, 102);
   margin-bottom: 0;
   z-index: 1;
 }
@@ -69,15 +69,12 @@ html, body {
     }
   }
   
-  .btn-whitepaper {
-    width: 18rem;
-    margin: 1rem 0 0 0;
+  .whitepaper-link {
+    margin: 2rem 0 0 5px;
     font-size: 1.4rem;
-    color: #333;
-    background: transparent;
-    border: 2px solid #fbd13b;
-    font-weight: 900;
-    h4 { padding: 0; margin: 0;}
+    svg { color: #f1c00c;}
+    a { color: #333; font-weight: 600;}
+    a h5 { display: inline; padding: 0; margin: 0 0 0 2px;}
   }
 
   .bg-animation {
@@ -107,8 +104,16 @@ html, body {
     }
   }
   &.why {
-    color: #fff;
-    background-color: rgb(58, 58, 58);
+    color: #333;
+    background-color: rgb(241, 241, 241);    
+  }
+
+  &.roadmap {
+    background-color: #e4e4e4;
+  }
+
+  &.team {
+    background-color: #f3f3f3;
   }
 
 }
