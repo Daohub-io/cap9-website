@@ -166,6 +166,7 @@ html, body {
       width: 10rem;
       height: 10rem;
       background-clip: border-box;
+      filter: grayscale(1)
     }
     p {
       padding: 1rem;
