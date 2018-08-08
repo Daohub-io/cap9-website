@@ -135,12 +135,12 @@ html, body {
   color: #333;
 }
 
-.site-about.team {
-  
+.site-frontpage.team {
+
   p {
     padding: 3rem 0;
   }
-  h4 {
+  h2, h4 {
     margin-bottom: 2em;
   }
   .person {
@@ -168,6 +168,49 @@ html, body {
     }
   }
 
+}
+
+.site-frontpage.roadmap {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul.milestones{
+    li {
+      margin: 0;
+      flex-grow: 1;
+      &:nth-child(1) .card {background-color: #fbd13b }
+      &:nth-child(1) { flex-grow: 0; flex-basis: 15rem; }
+      &:nth-child(2) .card { background-color: #fcdf78 }
+      &:nth-child(3) .card {background-color: #fdeaa5 }
+      &:nth-child(4) { flex-grow: 2;}
+      
+      .card {
+        border-radius: 0;
+        border: none;
+        padding: 1rem;
+        margin: 0;
+        h6 {
+          width: 10rem;
+          font-weight: 300;
+        }
+      }
+      
+      date {
+      }
+    }
+  }
+
+  ul.years {
+    margin-top: 1rem;
+    li {
+      padding: 1rem 1rem;
+      border: 1px solid #333;
+      flex-grow: 1;
+      &:nth-child(3) { flex-grow: 0; flex-basis: 15rem; }
+    }
+  }
 }
 
 .site-about.careers {
