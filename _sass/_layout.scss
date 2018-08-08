@@ -10,7 +10,7 @@ html, body {
 
 .site-header, .site-frontpage-jumbo, .site-doc-jumbo, .site-footer {
   color: $main-color5;
-  background-color: rgb(102, 102, 102);
+  background-color: rgb(65, 65, 65);
   margin-bottom: 0;
   z-index: 1;
 }
@@ -166,7 +166,7 @@ html, body {
       width: 10rem;
       height: 10rem;
       background-clip: border-box;
-      filter: grayscale(1)
+      filter: grayscale(1);
     }
     p {
       padding: 1rem;
