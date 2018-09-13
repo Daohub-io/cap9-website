@@ -69,9 +69,10 @@ html, body {
     }
   }
   
-  .whitepaper-link {
-    margin: 2rem 0 0 5px;
+  .header-link {
+    margin: 1rem 0 0 1.5rem;
     font-size: 1.4rem;
+    display: inline-block;
     svg { color: #f1c00c;}
     a { color: #333; font-weight: 600;}
     a h5 { display: inline; padding: 0; margin: 0 0 0 2px;}
