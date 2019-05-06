@@ -1,6 +1,6 @@
-##BeakerOS Website
+## Cap9 Website
 
-###Setup
+### Setup
 
 * Install Jekyll
 * Then `jekyll serve`
