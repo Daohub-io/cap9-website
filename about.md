@@ -64,7 +64,7 @@ permalink: /about/
                     <li>UX and UI Design</li>
                 </ul>
                 <h5>Applying</h5>
-                <p>Send an email to <a href="mailto:jobs@daolab.io">jobs@daolab.io</a>, tell us about yourself, your future, past and ideal future work. <br> We try to respond within 7 days.</p>
+                <p>Send an email to <a href="mailto:jobs@daohub.io">jobs@daohub.io</a>, tell us about yourself, your future, past and ideal future work. <br> We try to respond within 7 days.</p>
             </div>
         </div>
     </div>
