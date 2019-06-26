@@ -10,7 +10,7 @@ html, body {
 
 .site-header, .site-frontpage-jumbo, .site-doc-jumbo, .site-footer {
   color: $main-color5;
-  background-color: rgb(65, 65, 65);
+  background-color: $main-color5;
   margin-bottom: 0;
   z-index: 1;
 }
@@ -53,15 +53,16 @@ html, body {
   // }
   header {
     color: rgb(0, 0, 0);
-    padding: 10rem 0 7rem;
+    padding: 10rem 0 50%;
     .project-name {
       font-weight: 900;
       b {
         text-shadow: #222;
-        color: #fbd13b;
+        color:$brand-color;
       }
     }
     .project-desc {
+      font-weight: 200;
     }
     
     h3 {
@@ -73,7 +74,7 @@ html, body {
     margin: 1rem 0 0 1.5rem;
     font-size: 1.4rem;
     display: inline-block;
-    svg { color: #f1c00c;}
+    svg { color: $brand-color;}
     a { color: #333; font-weight: 600;}
     a h5 { display: inline; padding: 0; margin: 0 0 0 2px;}
   }
@@ -86,6 +87,12 @@ html, body {
     left:0;
     z-index: -10;
   }
+
+  .frontpage-brand {
+    display: block;
+    position: relative;
+    bottom: 4rem;
+  }
 }
 
 .site-frontpage {
@@ -95,8 +102,8 @@ html, body {
   &.contact {
     background-color: rgb(247, 247, 247);
     svg {
-      position: relative;
-      color: $main-color4;
+      position: absolute;
+      color: $brand-color;
     }
     a {
       color: #333;
@@ -187,10 +194,10 @@ html, body {
     li {
       margin: 0;
       flex-grow: 1;
-      &:nth-child(1) .card {background-color: #fbd13b }
+      &:nth-child(1) .card {background-color: $brand-color }
       &:nth-child(1) { flex-grow: 0; flex-basis: 15rem; }
-      &:nth-child(2) .card { background-color: #fcdf78 }
-      &:nth-child(3) .card {background-color: #fdeaa5 }
+      &:nth-child(2) .card { background-color: $brand-color }
+      &:nth-child(3) .card {background-color: $brand-color }
       &:nth-child(4) { flex-grow: 2;}
       
       .card {
@@ -237,10 +244,11 @@ html, body {
 }
 
 .site-footer {
-  padding: 3em 0;
+  padding: 2em 0;
   img {
-    width: 5rem;
-    margin: 0 0 -2rem -1rem;;
+    width: 2rem;
+    margin: 0 0 -1rem 0;
+    filter: invert(1);
   }
   .site-footer-heading, .site-footer-sub {
     padding: 1rem 0 0;

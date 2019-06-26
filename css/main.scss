@@ -5,11 +5,11 @@
 @charset "utf-8";
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans');
 
 // Our variables
-$heavy-font-family: "Source Sans", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heavy-font-family: "Source Sans", "Roboto Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 100;
@@ -20,7 +20,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       rgb(214, 214, 214);
-$brand-color:      #2a7ae2;
+$brand-color:      #202020;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -31,7 +31,7 @@ $main-color1: rgb(32, 32, 32);
 $main-color2: rgb(233, 233, 233);
 $main-color3: rgb(54, 98, 194);
 $main-color4: rgb(5, 129, 187);
-$main-color5: rgb(2, 123, 236);
+$main-color5: rgb(15, 15, 15);
 
 // Width of the content area
 $content-width:    800px;
