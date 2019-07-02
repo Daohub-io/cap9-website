@@ -8,6 +8,11 @@ html, body {
   background-color: transparent;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .site-header, .site-frontpage-jumbo, .site-doc-jumbo, .site-footer {
   color: $main-color5;
   background-color: $main-color5;
@@ -41,6 +46,7 @@ html, body {
 
 .site-frontpage-jumbo {
   position: relative;
+  flex-grow: 1;
   background-color: rgb(241, 241, 241);    
   z-index: 0;
   // .background-image {
@@ -245,6 +251,7 @@ html, body {
 
 .site-footer {
   padding: 2em 0;
+  flex-grow: 1;
   img {
     width: 2rem;
     margin: 0 0 -1rem 0;
